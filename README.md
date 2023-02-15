@@ -15,6 +15,8 @@ Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-
 # Objective 
 we will develop a models to better understand the causes of car crashes requiring EMS or EMT response.
 
+# Some of the features and its description
+
 |  	| FEATURES 	| DESCRIPTION 	|
 |---	|---	|---	|
 | 0 	| CRASH_RECORD_ID 	| This number can be used to link to the same crash in the Vehicles and People datasets. 	|
