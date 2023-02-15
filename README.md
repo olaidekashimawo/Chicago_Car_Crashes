@@ -52,6 +52,9 @@ we will develop a models to better understand the causes of car crashes requirin
 * Creating visualizations to understand data 
 # Preprocessing 
 * we ran a train-test-split  to prevent data leakage
+* 
+# Class Imbalance (SMOTE)
+
 # Model:
 * Subsampled the dataset
 * Modeled logistic regression, KNN, decision trees, bagging, and random forest.
