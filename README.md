@@ -3,7 +3,8 @@ Flatiron Phase III project : Build a classifier to predict the primary contribut
 Data from Chicago car accidents was analyzed, and several models were created including logistic regression, KNN, Decision Tree, and Random Forest.
 This project aimed to identify the primary contributory of what might cause a car accident in Chicago help Insurance companies, use the model to assess severity of the accident and set premiums
 
-Objective 
+# Objective 
+
 The car crash data from the City of Chicago is the basis for this analysis.It consist of crashes from 2022-2023 From these data, we will develop a model to better understand the causes of car crashes requiring EMS or EMT response.
 
 |  	| FEATURES 	| DESCRIPTION 	|
