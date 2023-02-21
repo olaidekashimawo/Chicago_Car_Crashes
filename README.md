@@ -45,6 +45,7 @@ we will develop a models to better understand the causes of car crashes requirin
 * Vehicle=https://data.cityofchicago.org/resource/68nd-jvt3.csv
 * Person=https://data.cityofchicago.org/resource/u6pd-qa9d.csv:
 ### Data Cleaning
+* Look into your data.
 * Analyze the merge data.
 * Understanding null values and deciding how to eliminate them
 * Adding useful data and changing data kinds
@@ -62,8 +63,12 @@ we will develop a models to better understand the causes of car crashes requirin
 ### Result 
 Model
 The following models were tested which included logistic regression, k-nearest neighbors, decision trees, Random forest .
-Random forest returned a 89% accuracy rate. As we observe the confusion matrix, when the model predicted 0 (not injured) and the result was not injured, the model was correct 99% of the time. When the model predicted 1 (injured) and the result was injured, it was correct 73% of the time.
+Random forest returned a 83% accuracy rate. As we observe the confusion matrix, when the model predicted 0 (not injured) and the result was not injured, the model was correct 99% of the time. When the model predicted 1 (injured) and the result was injured, it was correct 73% of the time.
 
-### Conclusion
+### Recomendation
+I recommend the following because the Random classifier has an 83% accuracy rate;
+Pedestrians/cyclists should wear contrasting colors and be more vigilant during afternoon/rush hour traffic.
+The city can add bike/pedestrian-friendly signs and lanes.
+The city lowers the speed limit during afternoon/rush hour (specifically in 30-40 mph zones) 
 
 ### Next Step
