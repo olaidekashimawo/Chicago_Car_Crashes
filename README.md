@@ -63,12 +63,18 @@ we will develop a models to better understand the causes of car crashes requirin
 ### Result 
 Model
 The following models were tested which included logistic regression, k-nearest neighbors, decision trees, Random forest .
-Random forest returned a 83% accuracy rate. As we observe the confusion matrix, when the model predicted 0 (not injured) and the result was not injured, the model was correct 99% of the time. When the model predicted 1 (injured) and the result was injured, it was correct 73% of the time.
+* Random Forest Classifier returned an accuracy rate of 83% In this report, the precision for class 0 is 0.85, which means that out of all the predictions the model made for class 0, 85% were correct. The precision for class 1 is 0.74, which means that out of all the predictions the model made for class 1, 74% were correct.
+
+* Recall is the ratio of true positive predictions to the total number of actual positive cases in the dataset. In this report, the recall for class 0 is 0.96, which means that out of all the actual cases of class 0 in the dataset, 96% were correctly identified by the model. The recall for class 1 is 0.42, which means that out of all the actual cases of class 1 in the dataset, only 42% were correctly identified by the model.
+
+* F1-score: F1-score is the harmonic mean of precision and recall, and is a measure of the overall accuracy of the model. In this report, the F1-score for class 0 is 0.90, while the F1-score for class 1 is 0.53.
+
+* The overall accuracy and weighted average metrics are higher for the Random Forest model, indicating better performance overall
 
 ### Recomendation
 I recommend the following because the Random classifier has an 83% accuracy rate;
-Pedestrians/cyclists should wear contrasting colors and be more vigilant during afternoon/rush hour traffic.
-The city can add bike/pedestrian-friendly signs and lanes.
-The city lowers the speed limit during afternoon/rush hour (specifically in 30-40 mph zones) 
+Increase enforcement of traffic laws and regulations, particularly with respect to distracted driving and failure to maintain a proper lane.
+Installation of physical barriers between opposing lanes of traffic, wider lanes, and better marking of lanes and road edges.
+Encourage the use of advanced driver assistance systems (ADAS) for instance blind spot detection, lane departure warning, and automatic emergency braking. 
 
 ### Next Step
