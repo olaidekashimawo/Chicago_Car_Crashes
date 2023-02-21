@@ -1,7 +1,7 @@
 # Chicago_Car_Crashes
 Flatiron Phase III project : Build a classifier to predict the primary contributory cause of a car accident. Use the model to assess severity of the accident
 Data from Chicago car accidents was analyzed, and several models were created including logistic regression, KNN, Decision Tree, and Random Forest.It consist of crashes from 2022-2023 From these data.
-# Data 
+### Data 
 The datasets was from the City of Chicago. There were three datasets that we observed, "Traffic Crashes - Crashes", "Traffic Crashes - Vehicle", and "Traffic Crashes - People" wasmerged them into one database.
 
 Column names and descriptions can be found here;
@@ -12,10 +12,10 @@ Traffic Crashes - Vehicle: https://data.cityofchicago.org/Transportation/Traffic
 
 Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
 
-# Objective 
+### Objective 
 we will develop a models to better understand the causes of car crashes requiring EMS or EMT response.
 
-# Some of the features and its description
+### Some of the features and its description
 
 |  	| FEATURES 	| DESCRIPTION 	|
 |---	|---	|---	|
@@ -52,7 +52,7 @@ we will develop a models to better understand the causes of car crashes requirin
 * inpecting the columns
 ### EDA 
 * Creating visualizations to understand data 
-# Preprocessing 
+### Preprocessing 
 * we ran a train-test-split  to prevent data leakage
 * Subsampled the dataset
 * Modeled logistic regression, KNN, decision trees, bagging, and random forest.
