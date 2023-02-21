@@ -50,7 +50,9 @@ we will develop a models to better understand the causes of car crashes requirin
 * Understanding null values and deciding how to eliminate them
 * Adding useful data and changing data kinds
 * removing redundant and duplicate columns
-* inpecting the columns
+* Inpecting the columns
+* Binning and Mapping
+
 ### EDA 
 * Creating visualizations to understand data 
 ### Preprocessing 
@@ -78,3 +80,7 @@ Installation of physical barriers between opposing lanes of traffic, wider lanes
 Encourage the use of advanced driver assistance systems (ADAS) for instance blind spot detection, lane departure warning, and automatic emergency braking. 
 
 ### Next Step
+To further analysis to better understand the factors that contribute to crashes; This could involve analyzing
+crash data, conducting simulated driving studies, and
+analysis driver behavior and roadway design.
+location of the crash
