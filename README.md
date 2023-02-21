@@ -40,30 +40,30 @@ we will develop a models to better understand the causes of car crashes requirin
 | 28 	| INJURY_CLASSIFICATION 	| Severity of injury person sustained in the crash 	|
  #Obtain:
 
-# Extracting data from the following files;
+### Extracting data from the following files;
 * Crash=https://data.cityofchicago.org/resource/85ca-t3if.csv
 * Vehicle=https://data.cityofchicago.org/resource/68nd-jvt3.csv
 * Person=https://data.cityofchicago.org/resource/u6pd-qa9d.csv:
-# Data Cleaning
+### Data Cleaning
 * Analyze the merge data.
 * Understanding null values and deciding how to eliminate them
 * Adding useful data and changing data kinds
 * removing redundant and duplicate columns
 * inpecting the columns
-# EDA 
+### EDA 
 * Creating visualizations to understand data 
 # Preprocessing 
 * we ran a train-test-split  to prevent data leakage
-* 
-# Class Imbalance (SMOTE)
-
-# Model:
 * Subsampled the dataset
 * Modeled logistic regression, KNN, decision trees, bagging, and random forest.
 * Grid-search each model for optimized parameters.
+### Class Imbalance (SMOTE)
 
-# Result 
+### Result 
+Model
+The following models were tested which included logistic regression, k-nearest neighbors, decision trees, Random forest .
+Random forest returned a 89% accuracy rate. As we observe the confusion matrix, when the model predicted 0 (not injured) and the result was not injured, the model was correct 99% of the time. When the model predicted 1 (injured) and the result was injured, it was correct 73% of the time.
 
-# Conclusion
+### Conclusion
 
-# Next Step
+### Next Step
