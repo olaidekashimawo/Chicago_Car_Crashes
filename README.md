@@ -28,10 +28,7 @@ we will develop a models to better understand the causes of car crashes requirin
 | 7 	| ROAD_DEFECT 	| Road defects, as determined by reporting officer 	|
 | 8 	| CRASH_TYPE 	| A general severity classification for the crash. <br>Can be either Injury and/or Tow Due to Crash or No Injury / Drive Away 	|
 | 10 	| PRIM_CONTRIBUTORY_CAUSE 	| The factor which was most significant in causing the crash, as determined by officer judgment 	|
-| 13 	| MOST_SEVERE_INJURY 	| Most severe injury sustained by any person involved in the crash 	|
 | 14 	| CRASH_DAY_OF_WEEK 	| The day of the week component of CRASH_DATE (Sun=1, Mon=2, Tue=3, Wed=4, Thu=5, Fri=6, Sat=7) 	|
-| 16 	| VEHICLE_TYPE 	| The type of vehicle, if relevant 	|
-| 20 	| PERSON_TYPE 	| Type of roadway user involved in crash 	|
 | 21 	| VEHICLE_ID 	| The corresponding CRASH_UNIT_ID from the Vehicles dataset. 	|
 | 23 	| SEX 	| Gender of person involved in crash, as determined by reporting officer 	|
 | 24 	| AGE 	| Age of person involved in crash 	|
@@ -54,27 +51,26 @@ we will develop a models to better understand the causes of car crashes requirin
 * Binning and Mapping
 
 ### EDA 
-* Creating visualizations to understand data 
+* Creating visualizations to understand data better
+
+![image](https://user-images.githubusercontent.com/82849694/223244574-c728a7d6-e941-4c39-8f38-900b8c946b73.png)
+![image](https://user-images.githubusercontent.com/82849694/223244607-c323b600-bf48-4120-b655-d732e2f60b95.png)
+![image](https://user-images.githubusercontent.com/82849694/223244662-612c763d-0961-4368-994c-2748160fe107.png)
+
 ### Preprocessing 
 * we ran a train-test-split  to prevent data leakage
 * Subsampled the dataset
 * Modeled logistic regression, KNN, decision trees, bagging, and random forest.
 * Grid-search each model for optimized parameters.
 ### Class Imbalance (SMOTE)
-
+To  balance the imbalance data set
 ### Result 
 Model
-The following models were tested which included logistic regression, k-nearest neighbors, decision trees, Random forest .
-* Random Forest Classifier returned an accuracy rate of 83% In this report, the precision for class 0 is 0.85, which means that out of all the predictions the model made for class 0, 85% were correct. The precision for class 1 is 0.74, which means that out of all the predictions the model made for class 1, 74% were correct.
-
-* Recall is the ratio of true positive predictions to the total number of actual positive cases in the dataset. In this report, the recall for class 0 is 0.96, which means that out of all the actual cases of class 0 in the dataset, 96% were correctly identified by the model. The recall for class 1 is 0.42, which means that out of all the actual cases of class 1 in the dataset, only 42% were correctly identified by the model.
-
-* F1-score: F1-score is the harmonic mean of precision and recall, and is a measure of the overall accuracy of the model. In this report, the F1-score for class 0 is 0.90, while the F1-score for class 1 is 0.53.
-
-* The overall accuracy and weighted average metrics are higher for the Random Forest model, indicating better performance overall
+I recommend the following because the Random classifier has an 95%  smote accuracy rate;
 
 ### Recomendation
-I recommend the following because the Random classifier has an 83% accuracy rate;
+
+
 Increase enforcement of traffic laws and regulations, particularly with respect to distracted driving and failure to maintain a proper lane.
 Installation of physical barriers between opposing lanes of traffic, wider lanes, and better marking of lanes and road edges.
 Encourage the use of advanced driver assistance systems (ADAS) for instance blind spot detection, lane departure warning, and automatic emergency braking. 
