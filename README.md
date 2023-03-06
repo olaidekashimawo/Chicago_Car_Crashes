@@ -1,21 +1,23 @@
 # Chicago_Car_Crashes
+____________________________________________________________________________________________________
+
 Flatiron Phase III project : Build a classifier to predict the primary contributory cause of a car accident. Use the model to assess severity of the accident
 Data from Chicago car accidents was analyzed, and several models were created including logistic regression, KNN, Decision Tree, and Random Forest.It consist of crashes from 2022-2023 From these data.
+
 ### Data 
 The datasets was from the City of Chicago. There were three datasets that we observed, "Traffic Crashes - Crashes", "Traffic Crashes - Vehicle", and "Traffic Crashes - People" wasmerged them into one database.
 
 Column names and descriptions can be found here;
+ * Traffic Crashes - Crashes: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
+ * Traffic Crashes - Vehicle: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3
+ * Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
 
-Traffic Crashes - Crashes: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
+### Business Understanding
 
-Traffic Crashes - Vehicle: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3
+This project seeks to create a multi-classification model to accurately identify the primary contributory cause of car crashes in Chicago
+I will analyze the data of car crashes to determine which factors are most likely to lead to injury and build a predictive model to alert help emergency medical services dispatchers of the potential injury. 
 
-Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
-
-### Objective 
-we will develop a models to better understand the causes of car crashes requiring EMS or EMT response.
-
-### Some of the features and its description
+### Data Dictionary
 
 |  	| FEATURES 	| DESCRIPTION 	|
 |---	|---	|---	|
@@ -43,6 +45,7 @@ we will develop a models to better understand the causes of car crashes requirin
 * Person=https://data.cityofchicago.org/resource/u6pd-qa9d.csv:
 
 ### Data Cleaning
+
 * Look into your data.
 * Analyze the merge data.
 * Understanding null values and deciding how to eliminate them
@@ -50,38 +53,75 @@ we will develop a models to better understand the causes of car crashes requirin
 * removing redundant and duplicate columns
 
 ### Feature Engineering
+
 * Inpecting the columns
 * Binning and Mapping
 
-### EDA 
-* Creating visualizations to understand data better
+### Exploratory Data Analysis
 
-![image](https://user-images.githubusercontent.com/82849694/223244574-c728a7d6-e941-4c39-8f38-900b8c946b73.png)
+* Creating visualizations to understand data better;
+
+![image](https://user-images.githubusercontent.com/82849694/223246993-50bc032d-ffb9-4057-a36b-62b518a4f4e6.png)
+
+* Some major causes of crashes are;
+ * failing to yield the right of way
+ * following too closely
+ * improper overtaking/passing
+ * failing to reduce speed to avoid a crash
+
+
 ![image](https://user-images.githubusercontent.com/82849694/223244607-c323b600-bf48-4120-b655-d732e2f60b95.png)
+* Most accidents occurred on weekends mainly(on Fridays and Saturdays)
+
 ![image](https://user-images.githubusercontent.com/82849694/223244662-612c763d-0961-4368-994c-2748160fe107.png)
 
+* From the visualization above we can see most crashes happens in broad daylight
+
+
 ### Preprocessing 
+
 * we ran a train-test-split  to prevent data leakage
 * Subsampled the dataset
 * Modeled logistic regression, KNN, decision trees, bagging, and random forest.
 * Grid-search each model for optimized parameters.
+
 ### Class Imbalance (SMOTE)
+
 To  balance the imbalance data set
-### Result 
-Model
+
+### Model Result 
+
 I recommend the following because the Random classifier has an 95%  smote accuracy rate;
 
 ### Recomendation.
 
-Increase enforcement of traffic laws and regulations, particularly with respect to distracted driving and failure to maintain a proper lane.
-Installation of physical barriers between opposing lanes of traffic, wider lanes, and better marking of lanes and road edges.
-Encourage the use of advanced driver assistance systems (ADAS) for instance blind spot detection, lane departure warning, and automatic emergency braking. 
+* Increase enforcement of traffic laws and regulations, particularly with respect to distracted driving and failure to maintain a proper lane.
+* Installation of physical barriers between opposing lanes of traffic, wider lanes, and better marking of lanes and road edges.
+* Encourage the use of advanced driver assistance systems (ADAS) for instance blind spot detection, lane departure warning, and automatic emergency braking. 
 
 ### Next Step
-To further analysis to better understand the factors that contribute to crashes; This could involve analyzing
-crash data, conducting simulated driving studies, and
-analysis driver behavior and roadway design.
-location of the crash
+To further analyze to better understand the factors that contribute to crashes; 
 
- -Additional Information
-  --Data 
+* Analyze driver behavior and roadway design.
+* Binning data to find crash locations can suggest lowering a speed limit or adding a traffic signal soon.
+
+__________________________________________________________________________________________________________________
+
+ ### Repository Structure
+
+   * Business Understanding
+   * Data 
+   * Data Cleaning
+   * Feature Engineering
+   * Exploratory Data Analysis
+   * Preprocessing 
+   * Class Imbalance (SMOTE)
+   * Model Result 
+   * Recomendation
+   * Next Step
+
+For More Information
+See the full analysis in the Jupyter Notebook or review this presentation.
+
+For additional info, contact Olaide Kashimawo at goldprint3@outlook.com
+   
