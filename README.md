@@ -41,12 +41,15 @@ we will develop a models to better understand the causes of car crashes requirin
 * Crash=https://data.cityofchicago.org/resource/85ca-t3if.csv
 * Vehicle=https://data.cityofchicago.org/resource/68nd-jvt3.csv
 * Person=https://data.cityofchicago.org/resource/u6pd-qa9d.csv:
+
 ### Data Cleaning
 * Look into your data.
 * Analyze the merge data.
 * Understanding null values and deciding how to eliminate them
 * Adding useful data and changing data kinds
 * removing redundant and duplicate columns
+
+### Feature Engineering
 * Inpecting the columns
 * Binning and Mapping
 
@@ -68,8 +71,7 @@ To  balance the imbalance data set
 Model
 I recommend the following because the Random classifier has an 95%  smote accuracy rate;
 
-### Recomendation
-
+### Recomendation.
 
 Increase enforcement of traffic laws and regulations, particularly with respect to distracted driving and failure to maintain a proper lane.
 Installation of physical barriers between opposing lanes of traffic, wider lanes, and better marking of lanes and road edges.
@@ -80,3 +82,6 @@ To further analysis to better understand the factors that contribute to crashes;
 crash data, conducting simulated driving studies, and
 analysis driver behavior and roadway design.
 location of the crash
+
+ -Additional Information
+  --Data 
