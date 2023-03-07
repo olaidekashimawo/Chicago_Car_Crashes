@@ -4,6 +4,11 @@ ________________________________________________________________________________
 Flatiron Phase III project : Build a classifier to predict the primary contributory cause of a car accident. Use the model to assess severity of the accident
 Data from Chicago car accidents was analyzed, and several models were created including logistic regression, KNN, Decision Tree, and Random Forest.It consist of crashes from 2022-2023 From these data.
 
+### Business Understanding
+
+This project seeks to create a multi-classification model to accurately identify the primary contributory cause of car crashes in Chicago
+I will analyze the data of car crashes to determine which factors are most likely to lead to injury and build a predictive model to alert help emergency medical services dispatchers of the potential injury. 
+_______________________________________________________________________________________________________
 ### Data 
 The datasets was from the City of Chicago. There were three datasets that we observed, "Traffic Crashes - Crashes", "Traffic Crashes - Vehicle", and "Traffic Crashes - People" wasmerged them into one database.
 
@@ -11,11 +16,6 @@ Column names and descriptions can be found here;
  * Traffic Crashes - Crashes: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
  * Traffic Crashes - Vehicle: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3
  * Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
-
-### Business Understanding
-
-This project seeks to create a multi-classification model to accurately identify the primary contributory cause of car crashes in Chicago
-I will analyze the data of car crashes to determine which factors are most likely to lead to injury and build a predictive model to alert help emergency medical services dispatchers of the potential injury. 
 
 ### Data Dictionary
 
@@ -43,7 +43,7 @@ I will analyze the data of car crashes to determine which factors are most likel
 * Crash=https://data.cityofchicago.org/resource/85ca-t3if.csv
 * Vehicle=https://data.cityofchicago.org/resource/68nd-jvt3.csv
 * Person=https://data.cityofchicago.org/resource/u6pd-qa9d.csv:
-
+___________________________________________________________________________________________________________
 ### Data Cleaning
 
 * Look into your data.
