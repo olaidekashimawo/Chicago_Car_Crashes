@@ -109,12 +109,12 @@ ________________________________________________________________________________
 
  ### Repository Structure
 
-   ├── images
+   |-- images
    ├── Data 
-   ├──Readme.MD
+   ├── Readme.md
    ├── Chicago Car Crashes_reviewed
    
-
+___________________________________________________________________________________________________________________
 For More Information
 See the full analysis in the Jupyter Notebook or review this presentation.
 
