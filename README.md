@@ -111,10 +111,11 @@ ________________________________________________________________________________
 
  ### Repository Structure
 
-    * images
-    *  Data 
-    *  Readme.md
-    *  Chicago Car Crashes_reviewed
+  
+* Chicago Car Crash Presentation.pdf
+* Copy_of_Chicago_Car_Crash.ipynb
+* Copy_of_Chicago_Car_Crash_reviewed.ipynb
+* README.md
    
 ___________________________________________________________________________________________________________________
 For More Information
