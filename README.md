@@ -109,16 +109,11 @@ ________________________________________________________________________________
 
  ### Repository Structure
 
-   * Business Understanding
-   * Data 
-   * Data Cleaning
-   * Feature Engineering
-   * Exploratory Data Analysis
-   * Preprocessing 
-   * Class Imbalance (SMOTE)
-   * Model Result 
-   * Recomendation
-   * Next Step
+   ├── images
+   ├── Data 
+   ├──Readme.MD
+   ├── Chicago Car Crashes_reviewed
+   
 
 For More Information
 See the full analysis in the Jupyter Notebook or review this presentation.
