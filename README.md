@@ -91,6 +91,8 @@ To  balance the imbalance data set
 
 ### Model Result 
 
+![image](https://user-images.githubusercontent.com/82849694/223450592-1d7b7e97-7b86-432b-af93-f7dfe2337c29.png)
+
 I recommend the following because the Random classifier has an 95%  smote accuracy rate;
 
 ### Recomendation.
