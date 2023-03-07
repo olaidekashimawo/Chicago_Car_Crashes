@@ -110,9 +110,9 @@ ________________________________________________________________________________
  ### Repository Structure
 
     * images
-    *   Data 
-    *    Readme.md
-   *      Chicago Car Crashes_reviewed
+    *  Data 
+    *  Readme.md
+    *  Chicago Car Crashes_reviewed
    
 ___________________________________________________________________________________________________________________
 For More Information
