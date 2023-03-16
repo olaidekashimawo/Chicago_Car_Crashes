@@ -88,6 +88,8 @@ ________________________________________________________________________________
 ### Class Imbalance (SMOTE)
 
 To  balance the imbalance data set
+![image](https://user-images.githubusercontent.com/82849694/225611978-118b7bf9-3295-45ee-8631-d4d16126537a.png)
+
 
 ### Model Result 
 
