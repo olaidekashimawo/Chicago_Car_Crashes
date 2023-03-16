@@ -39,7 +39,7 @@ Column names and descriptions can be found here;
 | 25 	| SAFETY_EQUIPMENT 	| Safety equipment used by vehicle occupant in crash, if any 	|
 | 26 	| AIRBAG_DEPLOYED 	| Whether vehicle occupant airbag deployed as result of crash 	|
 | 28 	| INJURY_CLASSIFICATION 	| Severity of injury person sustained in the crash 	|
- #Obtain:
+ 
 
 ### Extracting data from the following files;
 * Crash=https://data.cityofchicago.org/resource/85ca-t3if.csv
