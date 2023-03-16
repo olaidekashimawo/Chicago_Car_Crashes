@@ -16,6 +16,8 @@ Column names and descriptions can be found here;
  * Traffic Crashes - Crashes: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
  * Traffic Crashes - Vehicle: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3
  * Traffic Crashes - People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
+ 
+ These data sets provide up-to-date information and statistics from as recently as 2022. it was a promising option for analysis the business challenge at hand due to its comprehensive nature. we cleaned and merged them into the dataset provided below.
 
 ### Data Dictionary
 
@@ -93,9 +95,12 @@ To  balance the imbalance data set
 
 ### Model Result 
 
-![image](https://user-images.githubusercontent.com/82849694/223450592-1d7b7e97-7b86-432b-af93-f7dfe2337c29.png)
+![image](https://user-images.githubusercontent.com/82849694/225612507-0d7ebad4-1822-4aa6-a542-ac261bdf0c11.png)
 
-I recommend the following because the Random classifier has an 95%  smote accuracy rate;
+Overall, using SMOTE has significantly improved the performance Random
+Forest classifier, as shown by higher F1 SCORE and better RECALL on the
+resampled data.
+I recommend the following because the Random classifier has an 96%  smote accuracy rate;
 
 ### Recomendation.
 
